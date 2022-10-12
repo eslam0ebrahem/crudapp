@@ -1,6 +1,5 @@
 @extends('layout')
 @section('content')
-    <div class="container text-center">
 
         <div class="col mt-5">
             <div class="item"> <img src="{{ asset('storage/' . $employee->img) }}" class="img-thumbnail"
@@ -28,5 +27,5 @@
             </div>
         </div>
 
-    </div>
+
 @endsection

@@ -17,7 +17,7 @@
 
 <body>
 
-    <div class="container">
+    <div class="container text-center">
         @yield('content')
     </div>
 

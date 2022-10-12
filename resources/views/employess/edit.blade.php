@@ -46,7 +46,7 @@
             </div>
             <div class="mb-3">
                 <label for="file" class="form-label">Upload Image</label>
-                <input class="form-control" name="img" type="file" id="file">
+                <input class="form-control mb-3" name="img" type="file" id="file">
                 <img src="{{ asset('storage/' . $employee->img) }}" class="img-thumbnail" alt="Profile picture">
 
                 @error('file')
@@ -56,4 +56,4 @@
             <button class="btn btn-success">Update</button>
         </form>
     </div>
-    @endsection
+@endsection
