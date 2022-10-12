@@ -56,3 +56,4 @@
             <button class="btn btn-success">Update</button>
         </form>
     </div>
+    @endsection

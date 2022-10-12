@@ -14,3 +14,4 @@
             <button class="btn btn-success">Submit</button>
         </form>
     </div>
+    @endsection
