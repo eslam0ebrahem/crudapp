@@ -6,8 +6,8 @@
             <div class="card">
                 <div class="card-header">
                     <h2>Dependents</h2>
-                    <a href="{{ url('/dependent') }}" class="btn  btn-info btn-sm" title="Add New Employe">
-                        <i class="fa fa-plus" aria-hidden="true"></i>dependents
+                    <a href="{{ url('/employee') }}" class="btn   btn-success btn-sm" title="Add New Employe">
+                        <i class="fa fa-plus" aria-hidden="true"></i> employees
                     </a>
                     <a href="{{ url('/department') }}" class="btn btn-secondary btn-sm" title="Add New Employe">
                         <i class="fa fa-plus" aria-hidden="true"></i>departments
