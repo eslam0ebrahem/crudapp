@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="col">
-            <div class="item">
+            <div class="item mb-1">
                 <a href="{{ url('/employee/') }}" title="All employee"><button class="btn btn-primary btn-sm"><i
                             class="fa fa-pencil-square-o" aria-hidden="true"></i>
                         All Employees</button></a>

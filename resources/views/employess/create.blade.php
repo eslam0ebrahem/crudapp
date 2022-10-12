@@ -1,6 +1,6 @@
 @extends('layout')
 @section('content')
-    <div class="container">
+    <div class="container mt-5" >
         <form method="POST" action="/employee"enctype="multipart/form-data">
             @csrf
             @method('POST')
