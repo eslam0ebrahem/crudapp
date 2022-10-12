@@ -1,6 +1,6 @@
 @extends('layout')
 @section('content')
-    <div class="row text-center h-100 align-content-center">
+    <div class="row text-center h-100 align-content-center justify-content-center">
         <div class="row text-center mb-5">
             <h1>CRUD</h1>
         </div>
